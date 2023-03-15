@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 import uuid
 from datetime import datetime
@@ -11,6 +12,7 @@ class BaseModel:
     """
     def __init__(self, *args, **kwargs):
         """init method for BaseModel Class
+
         Attributes:
             args (list): inputted arguments as a list.
             kwargs (dict): inputted arguments as a dict.
@@ -36,6 +38,7 @@ class BaseModel:
 
     def __str__(self):
         """str method for BaseModel Class
+
             Return:
                 string (str): string descriptor for BaseModel Class
         """
@@ -53,6 +56,7 @@ class BaseModel:
     def to_dict(self):
         """returns a dictionary containing all keys/values of __dict__
         of the instance
+
         Return:
             dictionary (dict): Dictionary object that contains __dict__
         """

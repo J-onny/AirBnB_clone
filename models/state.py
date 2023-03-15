@@ -4,16 +4,16 @@
 from models.base_model import BaseModel
 
 
-class Amenity(BaseModel):
-    """Amenity class inherits from BaseModel
+class State(BaseModel):
+    """State class inherits from BaseModel
 
     Attribute:
-        name (str): Public class attribute for Amenity's name
+        name (str): Public class attribute for State's name
     """
     name = ""
 
     def __init__(self, *args, **kwargs):
-        """init method for Amenity class
+        """init method for State class
 
         Attributes:
             args (list): The list with arguments

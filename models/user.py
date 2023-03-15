@@ -6,6 +6,7 @@ from models.base_model import BaseModel
 
 class User(BaseModel):
     """User class inherits from BaseModel
+
     Attributes:
         email (str): Public class attribute for User's email
         password (str): Public class attribute for User's password
@@ -19,6 +20,7 @@ class User(BaseModel):
 
     def __init__(self, *args, **kwargs):
         """init method for User class
+
         Attributes:
             args (list): The list with arguments
             kwargs (dict): A dictionary with arguments

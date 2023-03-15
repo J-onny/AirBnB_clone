@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 import json
 from models.base_model import BaseModel
@@ -30,6 +31,7 @@ class FileStorage:
 
     def new(self, obj):
         """sets in __objects the obj with key <obj class name>.id
+
         Attributes:
             obj (Python object): The object to set
         """
